@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 * {
     box-sizing: border-box;
 
     margin: 0;
     padding: 0;
+}
+
+body {    
+    font-family: 'Roboto', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -16,4 +22,14 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: #0006;
     border-radius: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button, input {
+    border: none;
+    outline: none;
 }
