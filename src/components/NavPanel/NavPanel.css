@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+.navPanel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: calc(100vw - 5px);
+  height: 80px;
+  padding: 10px;
+  background-color: #000;
+}
+
+.links {
+  width: fit-content;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.links ::marker {
+  color: #000;
+}
+
+.link {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.link h2 {
+  padding: 8px 10px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.link:hover h2 {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5019607843) inset;
+}
+
+.link:active h2 {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5019607843) inset;
+}
+
+.active h2 {
+  color: #fff;
+  background-color: #000;
+  cursor: default;
+}
+
+/*# sourceMappingURL=NavPanel.css.map */

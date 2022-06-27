@@ -1,8 +1,11 @@
+import NavPanel from './../NavPanel/NavPanel';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <NavPanel />
       aaaaa
     </div>
   );

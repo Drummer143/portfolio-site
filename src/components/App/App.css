@@ -1,0 +1,9 @@
+.app {
+    height: 10000px;
+
+    padding-top: 80px;
+    
+    background-color: antiquewhite;
+
+    overflow-y: visible;
+}
