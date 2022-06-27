@@ -1,0 +1,32 @@
+.item {
+  position: relative;
+  width: 480px;
+  height: 270px;
+  margin: 50px;
+  box-shadow: 0 0 5px 5px #112D32;
+  border-radius: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.item h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6274509804);
+  border-radius: 0 0 25px 25px;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.item:hover {
+  animation: scaling 0.5s ease 0s 1;
+  box-shadow: 0 0 25px 5px #112D32;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=ProjectItem.css.map */

@@ -5,7 +5,7 @@ import NavPanel from '../NavPanel/NavPanel';
 
 import './App.css';
 import Experience from '../Experience/Experience';
-import Projects from '../Projects/Projects';
+import Portfolio from '../portfolioPage/Portfolio/Portfolio';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
       <NavPanel />
       <Routes>
         <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/*' element={<Navigate to='/about' replace/>} />
       </Routes>
