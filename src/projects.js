@@ -4,19 +4,19 @@ import supportChat from './images/support-chat.png';
 
 export const projects = [
     {
-        projectName: 'drumMachine',
+        projectName: 'Drum Machine',
         image: drumMachine,
         linkToGithub: 'https://github.com/Drummer143/drum-machine',
         linkToSite: 'https://drummer143.github.io/drum-machine/'
     },
     {
-        projectName: 'passwordGenerator',
+        projectName: 'Password Generator',
         image: passwordGenerator,
         linkToGithub: 'https://github.com/Drummer143/password-generator',
         linkToSite: 'https://drummer143.github.io/password-generator/'
     },
     {
-        projectName: 'supportChat',
+        projectName: '(WIP)Support Chat(for support stuff)',
         image: supportChat,
         linkToGithub: 'https://github.com/Drummer143/support-chat-WIP',
         linkToSite: 'https://support-chat-24b46.web.app'

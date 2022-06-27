@@ -40,12 +40,34 @@
     }
 }
 
+@keyframes hover {
+    0% {
+        box-shadow: none;
+    }
+
+    100% {
+        box-shadow: 0 0 5px 5px #112D3280 inset;
+    }
+}
+
 .link:hover h2 {
     box-shadow: 0 0 5px 5px #112D3280 inset;
+    animation: hover 0.2s ease 0s 1;
+}
+
+@keyframes active {
+    0% {
+        box-shadow: 0 0 5px 5px #112D3280 inset;
+    }
+
+    100% {
+        box-shadow: 0 0 0 5px #112D3280 inset;
+    }
 }
 
 .link:active h2 {
     box-shadow: 0 0 0 5px #112D3280 inset;
+    animation: active 0.2s ease 0s 1;
 }
 
 .active h2 {
