@@ -37,3 +37,45 @@
     box-shadow: 0 0 25px 5px #112D32;
     transform: scale(1.1);
 }
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}
+
+.buttons {
+    width: 80%;
+
+    margin-top: -50px;
+    margin: 0 auto;
+
+    animation: appear 0.5s ease 0s 1;
+
+    a {
+        width: calc(50% - 10px);
+        height: 50px;
+
+        margin: 5px;
+
+        display: inline-block;
+
+        text-align: center;
+        transform: translate(0, -45px);
+        border-radius: 15px;
+        background-color: #AAABB8;
+        line-height: 50px;
+        opacity: 0.8;
+        color: #112D32;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    a:hover {
+        opacity: 1;
+    }
+}
