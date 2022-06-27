@@ -1,15 +1,11 @@
+import Skills from '../Skills/Skills';
 import StartScreen from '../StartScreen/StartScreen';
-
-import './About.css';
 
 function About() {
     return (
         <>
             <StartScreen />
-
-            <div className='Skills'>
-                aasddad
-            </div>
+            <Skills />
         </>
     );
 }

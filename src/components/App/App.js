@@ -1,11 +1,11 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import About from '../aboutPage/About/About';
 
-import NavPanel from './../NavPanel/NavPanel';
+import NavPanel from '../NavPanel/NavPanel';
 
 import './App.css';
-import Experience from './../Experience/Experience';
-import Projects from './../Projects/Projects';
+import Experience from '../Experience/Experience';
+import Projects from '../Projects/Projects';
 
 function App() {
 
