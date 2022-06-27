@@ -6,7 +6,7 @@
 
     margin: 50px;
 
-    box-shadow: 0 0 5px 5px #112D32;
+    box-shadow: 0 0 5px 5px #112d32;
     border-radius: 25px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 .item:hover {
     animation: scaling 0.5s ease 0s 1;
 
-    box-shadow: 0 0 25px 5px #112D32;
+    box-shadow: 0 0 25px 5px #112d32;
     transform: scale(1.1);
 }
 
@@ -45,7 +45,7 @@
     }
 
     100% {
-        box-shadow: 0 0 5px 0 #112D32;
+        box-shadow: 0 0 5px 0 #112d32;
         opacity: 0.8;
     }
 }
@@ -55,7 +55,6 @@
 
     margin-top: -50px;
     margin: 0 auto;
-
 
     a {
         width: calc(50% - 10px);
@@ -68,13 +67,13 @@
         text-align: center;
         transform: translate(0, -45px);
         border-radius: 15px;
-        background-color: #AAABB8;
+        background-color: #aaabb8;
         line-height: 50px;
         opacity: 0.8;
-        color: #112D32;
+        color: #112d32;
         font-size: 1.2em;
         font-weight: 400;
-        box-shadow: 0 0 5px 0 #112D32;
+        box-shadow: 0 0 5px 0 #112d32;
         animation: appear 0.5s ease 0s 1;
     }
 

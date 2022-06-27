@@ -9,7 +9,7 @@
 
     padding: 10px;
 
-    background-color: #112D32;
+    background-color: #112d32;
 }
 
 .links {
@@ -33,8 +33,8 @@
     h2 {
         padding: 8px 10px;
 
-        background-color: #88BDBC;
-        color: #112D32;
+        background-color: #88bdbc;
+        color: #112d32;
         border-radius: 10px;
         user-select: none;
     }
@@ -46,32 +46,32 @@
     }
 
     100% {
-        box-shadow: 0 0 5px 5px #112D3280 inset;
+        box-shadow: 0 0 5px 5px #112d3280 inset;
     }
 }
 
 .link:hover h2 {
-    box-shadow: 0 0 5px 5px #112D3280 inset;
+    box-shadow: 0 0 5px 5px #112d3280 inset;
     animation: hover 0.2s ease 0s 1;
 }
 
 @keyframes active {
     0% {
-        box-shadow: 0 0 5px 5px #112D3280 inset;
+        box-shadow: 0 0 5px 5px #112d3280 inset;
     }
 
     100% {
-        box-shadow: 0 0 0 5px #112D3280 inset;
+        box-shadow: 0 0 0 5px #112d3280 inset;
     }
 }
 
 .link:active h2 {
-    box-shadow: 0 0 0 5px #112D3280 inset;
+    box-shadow: 0 0 0 5px #112d3280 inset;
     animation: active 0.2s ease 0s 1;
 }
 
 .active h2 {
-    color: #88BDBC;
-    background-color: #112D32;
+    color: #88bdbc;
+    background-color: #112d32;
     cursor: default;
 }

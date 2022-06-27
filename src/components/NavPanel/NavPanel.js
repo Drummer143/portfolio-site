@@ -1,13 +1,17 @@
 import { NavLink } from 'react-router-dom';
 
-import './NavPanel.css'
+import './NavPanel.css';
 
 function NavPanel() {
     return (
         <nav className="navPanel">
-            <div className='links'>
-                <NavLink to='about' className='link'><h2>About</h2></NavLink>
-                <NavLink to='portfolio' className='link'><h2>Portfolio</h2></NavLink>
+            <div className="links">
+                <NavLink to="about" className="link">
+                    <h2>About</h2>
+                </NavLink>
+                <NavLink to="portfolio" className="link">
+                    <h2>Portfolio</h2>
+                </NavLink>
             </div>
         </nav>
     );

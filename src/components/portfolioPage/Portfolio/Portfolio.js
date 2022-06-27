@@ -4,15 +4,15 @@ import { projects } from './../../../projects';
 import './Portfolio.css';
 
 function Portfolio() {
-    const mappedProjects = projects.map(item => <ProjectItem {...item} /* projectName={item.projectName} image={item.image} */ />)
+    const mappedProjects = projects.map(item => (
+        <ProjectItem {...item} /* projectName={item.projectName} image={item.image} */ />
+    ));
 
     return (
-        <div className='wrapper'>
+        <div className="wrapper">
             <h1>My projects</h1>
 
-            <div className='projects'>
-                {mappedProjects}
-            </div>
+            <div className="projects">{mappedProjects}</div>
         </div>
     );
 }

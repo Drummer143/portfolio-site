@@ -1,65 +1,65 @@
 .navPanel {
-  position: sticky;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 80px;
-  padding: 10px;
-  background-color: #112D32;
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: #112d32;
 }
 
 .links {
-  width: fit-content;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
+    width: fit-content;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 .links ::marker {
-  color: #000;
+    color: #000;
 }
 
 .link {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 .link h2 {
-  padding: 8px 10px;
-  background-color: #88BDBC;
-  color: #112D32;
-  border-radius: 10px;
-  user-select: none;
+    padding: 8px 10px;
+    background-color: #88bdbc;
+    color: #112d32;
+    border-radius: 10px;
+    user-select: none;
 }
 
 @keyframes hover {
-  0% {
-    box-shadow: none;
-  }
-  100% {
-    box-shadow: 0 0 5px 5px rgba(17, 45, 50, 0.5019607843) inset;
-  }
+    0% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 0 0 5px 5px rgba(17, 45, 50, 0.5019607843) inset;
+    }
 }
 .link:hover h2 {
-  box-shadow: 0 0 5px 5px rgba(17, 45, 50, 0.5019607843) inset;
-  animation: hover 0.2s ease 0s 1;
+    box-shadow: 0 0 5px 5px rgba(17, 45, 50, 0.5019607843) inset;
+    animation: hover 0.2s ease 0s 1;
 }
 
 @keyframes active {
-  0% {
-    box-shadow: 0 0 5px 5px rgba(17, 45, 50, 0.5019607843) inset;
-  }
-  100% {
-    box-shadow: 0 0 0 5px rgba(17, 45, 50, 0.5019607843) inset;
-  }
+    0% {
+        box-shadow: 0 0 5px 5px rgba(17, 45, 50, 0.5019607843) inset;
+    }
+    100% {
+        box-shadow: 0 0 0 5px rgba(17, 45, 50, 0.5019607843) inset;
+    }
 }
 .link:active h2 {
-  box-shadow: 0 0 0 5px rgba(17, 45, 50, 0.5019607843) inset;
-  animation: active 0.2s ease 0s 1;
+    box-shadow: 0 0 0 5px rgba(17, 45, 50, 0.5019607843) inset;
+    animation: active 0.2s ease 0s 1;
 }
 
 .active h2 {
-  color: #88BDBC;
-  background-color: #112D32;
-  cursor: default;
+    color: #88bdbc;
+    background-color: #112d32;
+    cursor: default;
 }
 
 /*# sourceMappingURL=NavPanel.css.map */
