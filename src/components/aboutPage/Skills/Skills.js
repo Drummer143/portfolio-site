@@ -21,7 +21,7 @@ function Skills() {
 
                 <li>
                     <h2>Now learning:</h2>
-                    <p>TypeScript, React Native</p>
+                    <p>TypeScript, React Native, Vue</p>
                 </li>
             </ul>
             <div></div>

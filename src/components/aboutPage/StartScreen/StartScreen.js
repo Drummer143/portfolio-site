@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faTelegram } from '@fortawesome/free-brands-svg-icons';
 
 import './StartScreen.css';
 
@@ -12,8 +12,15 @@ function StartScreen() {
                 <a href="https://github.com/Drummer143" rel="noreferrer" target="_blank">
                     <FontAwesomeIcon icon={faGithub} className="icon" />
                 </a>
-                <a href="https://github.com/Drummer143" rel="noreferrer" target="_blank">
+                <a
+                    href="https://www.linkedin.com/in/evgeny-berg-8b476a241/"
+                    rel="noreferrer"
+                    target="_blank"
+                >
                     <FontAwesomeIcon icon={faLinkedin} className="icon" />
+                </a>
+                <a href="https://tlgg.ru/zero_motivation" rel="noreferrer" target="_blank">
+                    <FontAwesomeIcon icon={faTelegram} className="icon" />
                 </a>
             </div>
         </div>

@@ -9,16 +9,6 @@
     font-size: 2.5em;
 }
 
-@keyframes scaling {
-    0% {
-        transform: scale(1);
-        box-shadow: 0 0 5px 5px #112d32;
-    }
-    100% {
-        transform: scale(1.1);
-        box-shadow: 0 0 25px 5px #112d32;
-    }
-}
 .projects {
     width: 100%;
     margin: 0 auto;

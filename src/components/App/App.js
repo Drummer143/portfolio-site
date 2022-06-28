@@ -11,9 +11,9 @@ function App() {
         <div className="app">
             <NavPanel />
             <Routes>
-                <Route path="/about" element={<About />} />
-                <Route path="/portfolio" element={<Portfolio />} />
-                <Route path="/*" element={<Navigate to="/about" replace />} />
+                <Route path="/portfolio-site/about" element={<About />} />
+                <Route path="/portfolio-site/portfolio" element={<Portfolio />} />
+                <Route path="/*" element={<Navigate to="/portfolio-site/about" replace />} />
             </Routes>
         </div>
     );
